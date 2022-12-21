@@ -5,7 +5,6 @@ function shuffleNums() {
   var i = 1;
   while (i <= 9) {
     document.getElementsByClassName("square_" + i)[0].innerHTML = array[i - 1];
-
     i++;
   }
 }
@@ -14,7 +13,6 @@ function sortNums() {
   var i = 1;
   while (i <= 9) {
     document.getElementsByClassName("square_" + i)[0].innerHTML = array[i - 1];
-
     i++;
   }
 }

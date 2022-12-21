@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shuffle</title>
+  </head>
+  <body onload="sortNums()">
+    <div class="header">
+      <script src="index.js" type="text/javascript"></script>
+      <link rel="stylesheet" href="style.css" />
+      <div class="shuffle_sort-title--mobile">
+        {Shuffle & Sort<span style="color: #de7064">/</span>}
+      </div>
+    </div>
+    <div class="shuffle_sort--container">
+      <div class="shuffle_sort">
+        <div class="shuffle_sort--title">
+          {Shuffle & Sort<span style="color: #de7064">/</span>}
+        </div>
+        <div class="shuffle_sort--area">
+          <div class="shuffle_sort--numbers" id="numbers"></div>
+          <div class="shuffle_sort--controls">
+            <div class="controls-area">
+              <div class="action-btn" onclick="shuffleNums()">
+                <img class="icon" src="../assets/shuffle.png" />
+                <span class="btn-name">Shuffle</span>
+              </div>
+              <div class="action-btn" onclick="sortNums()">
+                <img class="icon" src="../assets/sort.png" />
+                <span class="btn-name">Sort</span>
+              </div>
+            </div>
+            <img class="logo-pc" src="../assets/logo.png" />
+            <img class="logo-mobile" src="../assets/logo-black.svg" />
+          </div>
+        </div>
+        <div class="footer">Shuffle & sort by Hugo Cláudio</div>
+      </div>
+    </div>
+  </body>
+</html>
